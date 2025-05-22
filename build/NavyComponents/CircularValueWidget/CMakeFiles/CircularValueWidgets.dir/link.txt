@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCircularValueWidgets.a CMakeFiles/CircularValueWidgets.dir/CircularValueWidgets_autogen/mocs_compilation.cpp.o CMakeFiles/CircularValueWidgets.dir/CircularValueWidget.cpp.o CMakeFiles/CircularValueWidgets.dir/SpeedometerWidget.cpp.o CMakeFiles/CircularValueWidgets.dir/CompassWidget.cpp.o CMakeFiles/CircularValueWidgets.dir/CircularValueWidgets_autogen/PNK5WDWK6L/qrc_res.cpp.o
+/usr/bin/ranlib libCircularValueWidgets.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libEditableTableDelegate.a CMakeFiles/EditableTableDelegate.dir/EditableTableDelegate_autogen/mocs_compilation.cpp.o CMakeFiles/EditableTableDelegate.dir/src/TableDelegate/TableDelegate.cpp.o
+/usr/bin/ranlib libEditableTableDelegate.a

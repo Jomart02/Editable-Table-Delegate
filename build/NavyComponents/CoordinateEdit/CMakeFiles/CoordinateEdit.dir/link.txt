@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCoordinateEdit.a CMakeFiles/CoordinateEdit.dir/CoordinateEdit_autogen/mocs_compilation.cpp.o CMakeFiles/CoordinateEdit.dir/CoordinateEdit.cpp.o CMakeFiles/CoordinateEdit.dir/NaviStrings.cpp.o
+/usr/bin/ranlib libCoordinateEdit.a
