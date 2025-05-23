@@ -1,2 +1,0 @@
-/usr/bin/ar qc libnmeabuilder.a CMakeFiles/nmeabuilder.dir/nmea.cpp.o
-/usr/bin/ranlib libnmeabuilder.a
