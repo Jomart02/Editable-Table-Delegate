@@ -22,6 +22,7 @@ set(HDRS
 )
 set(SRC
     ./src/TableDelegate/TableDelegate.cpp
+    ./src/StyledWidgets/StyledTable.cpp
 )
 
 find_package(Qt6 COMPONENTS Widgets REQUIRED)
@@ -30,4 +31,10 @@ message("Building " ${TARGET})
 
 add_library(${PROJECT_NAME} STATIC ${HDRS} ${SRC})
 target_link_libraries(${PROJECT_NAME} Qt6::Widgets CoordinateEdit)
-target_include_directories(${PROJECT_NAME} PUBLIC ./)
+
+set(dirTarget 
+    ./include/StyledWidgets 
+    ./include/TableDelegate
+)
+
+target_include_directories(${PROJECT_NAME} PUBLIC ${dirTarget})

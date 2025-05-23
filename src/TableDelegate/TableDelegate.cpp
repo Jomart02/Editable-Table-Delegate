@@ -783,7 +783,7 @@ void TableWidgetsDelegate::setModelData(QWidget *editor, QAbstractItemModel *mod
         case ColumnType::ComboBox: {
             QComboBox *comboBox = static_cast<QComboBox*>(editor);
             model->setData(index, comboBox->currentIndex(), Qt::EditRole);
-            model->setData(index, comboBox->currentText(), Qt::DisplayRole);
+           // model->setData(index, comboBox->currentText(), Qt::DisplayRole);
             break;
         }
         case ColumnType::Checkbox: {
@@ -794,13 +794,13 @@ void TableWidgetsDelegate::setModelData(QWidget *editor, QAbstractItemModel *mod
         case ColumnType::LatEdit: {
             LatitudeEdit *latEdit = static_cast<LatitudeEdit*>(editor);
             model->setData(index, latEdit->value(), Qt::EditRole);
-            model->setData(index, latEdit->text(), Qt::DisplayRole);
+         //   model->setData(index, geoLat(latEdit->value()), Qt::DisplayRole);
             break;
         }
         case ColumnType::LongEdit: {
             LongitudeEdit *lonEdit = static_cast<LongitudeEdit*>(editor);
             model->setData(index, lonEdit->value(), Qt::EditRole);
-            model->setData(index, lonEdit->text(), Qt::DisplayRole);
+           // model->setData(index, geoLon(lonEdit->value()), Qt::DisplayRole);
             break;
         }
         case ColumnType::TimeEdit: {
